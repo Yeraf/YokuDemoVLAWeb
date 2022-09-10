@@ -3,6 +3,12 @@
     width: 100%;
 }
 
+.navbar-logo-VLA {
+    margin-left: 40px;
+    width: 140px;
+    height: 55px;
+}
+
 li.nav-item.active {
     margin-left: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

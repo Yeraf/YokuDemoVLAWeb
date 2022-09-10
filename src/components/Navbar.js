@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light">
       <Link className="navbar-brand" to="/">
-        <img src={Logo} width="140px" height="45px"></img>
+        <img className="navbar-logo-VLA" src={Logo}></img>
       </Link>
       <button
         class="navbar-toggler"

@@ -1,0 +1,27 @@
+.navbar.navbar-expand-lg.navbar-light {
+    background-color: #00b6b3;
+    width: 100%;
+}
+
+li.nav-item.active {
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+li.nav-item.active:hover {
+    box-shadow: 6px 6px 35px 8px rgb(255, 255, 255);
+}
+
+.btn-navbar {
+    background-color: rgb(255, 68, 0);
+    border: 3px solid rgb(255, 68, 0);
+    border-radius: 10px;
+}
+
+.btn-navbar:hover {
+    background-color: rgb(255, 68, 0);
+    color: white;
+    transition: 0.4s;
+}

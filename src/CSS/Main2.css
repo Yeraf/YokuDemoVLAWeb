@@ -1,0 +1,37 @@
+.main-2 {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 60px;
+}
+
+.main-cuadros-cursos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-p-cursos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Img-todos-cursos {
+    width: 230px;
+    height: 100px;
+    border-radius: 20px;
+    transition: 0.6s all ease;
+}
+
+.Img-todos-cursos:hover {
+    box-shadow: 6px 6px 30px 5px rgb(48, 48, 48);
+    transform: translateY(-10px);
+}
+
+.a-cursos-main {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.main-p-cursos {
+    text-decoration: none;
+}

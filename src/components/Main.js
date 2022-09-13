@@ -1,9 +1,12 @@
 import React from "react";
-import Englihs from '../img/Images/img-englihs.jpg';
-import Cisco from '../img/Images/cisco2.jpg'
-import Conocimiento from '../img/Images/prueba-conocimientos.jpg';
-import '../CSS/Main.css'
 import Main2 from "./Main2";
+import Main3 from "./Main3";
+import Main4 from "./Main4";
+import Englihs from '../img/Images/img-englihs.jpg';
+import Cisco from '../img/Images/cisco2.jpg';
+import Conocimiento from '../img/Images/prueba-conocimientos.jpg';
+import '../CSS/Main.css';
+import Main5 from "./Main5";
 
 function Main() {
   return (
@@ -81,6 +84,9 @@ function Main() {
       </div>
     </div>
     <Main2/>
+    <Main3/>
+    <Main4/>
+    <Main5/>
     </div>
   );
 }

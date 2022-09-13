@@ -3,9 +3,11 @@ import Englihs from '../img/Images/img-englihs.jpg';
 import Cisco from '../img/Images/cisco2.jpg'
 import Conocimiento from '../img/Images/prueba-conocimientos.jpg';
 import '../CSS/Main.css'
+import Main2 from "./Main2";
 
 function Main() {
   return (
+    <div>
     <div className="main-main">
       <article className="article-main">
         <h1 className="h1-main-article">TU CAMINO HACIA EL ÉXITO</h1>
@@ -77,6 +79,8 @@ function Main() {
           </button>
         </div>
       </div>
+    </div>
+    <Main2/>
     </div>
   );
 }

@@ -1,62 +1,59 @@
 import React from "react";
+import Englihs from '../img/Images/img-englihs.jpg';
+import Cisco from '../img/Images/cisco2.jpg'
+import Conocimiento from '../img/Images/prueba-conocimientos.jpg';
+import '../CSS/Main.css'
 
 function Main() {
   return (
     <div className="main-main">
-      <article>
-        <h1>TU CAMINO HACIA EL ÉXITO</h1>
-        <p>
+      <article className="article-main">
+        <h1 className="h1-main-article">TU CAMINO HACIA EL ÉXITO</h1>
+        <p className="p-main-article">
           Las empresas buscan personas con habilidades informáticas,
           gerenciales, de idiomas y mercadeo digital. Aprende con las clases
           100% en vivo por Internet de VLA. Tu rumbo a un mejor empleo empieza
           aquí.
         </p>
-        <button className="btn btn-info">Ver Cursos</button>
-        <button className="btn btn-warning">Clase Gratis</button>
+        <button className="btn btn-info botones-main-article">Ver Cursos</button>
+        <button className="btn btn-warning botones-main-article">Clase Gratis</button>
       </article>
-      <div>
-        <div
-          id="carouselExampleCaptions"
-          class="carousel slide"
-          data-ride="carousel"
-        >
+      <div className="">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleCaptions"
-              data-slide-to="0"
-              class="active"
-            ></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="..." class="d-block w-100" alt="..."></img>
+              <img src={Englihs} className="d-block main-h5-img" alt="..."></img>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Inglés</h5>
                 <p>
                   Abre las puertas a más oportunidades.
                 </p>
+                <button className="btn btn-warning">Comienza ya</button>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="..."></img>
+              <img src={Cisco} className="d-block main-h5-img" alt="..."></img>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Inicia tu carrera en Cisco</h5>
                 <p>
                   70% de descuento en boucher del examen de certificación.
                 </p>
-                <button>Comienza ya</button>
+                <button className="btn btn-warning">Comienza ya</button>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="..."></img>
+              <img src={Conocimiento} className="d-block main-h5-img" alt="..."></img>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Prueba tus conocimientos</h5>
                 <p>
                   Demuestra tus habilidades con los siguientes test de Excel, Linux, CCNA, VMWare, Inglés y Portugués.
                 </p>
-                <button>Realizar Test</button>
+                <button className="btn btn-warning">Realizar Test</button>
               </div>
             </div>
           </div>

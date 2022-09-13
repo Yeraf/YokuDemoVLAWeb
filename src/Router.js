@@ -13,7 +13,7 @@ import Empresarial from "./components/Empresarial";
 function Router() {
   return (
     <BrowserRouter>
-      <Navbar></Navbar>
+      <Navbar />
       <Routes>
         <Route path="/" exact element={<Main />}></Route>
         <Route path="/acerca" element={<Acerca />}></Route>
@@ -22,7 +22,7 @@ function Router() {
         <Route path="/cursos" element={<Cursos />}></Route>
         <Route path="/empresarial" element={<Empresarial />}></Route>
       </Routes>
-      <Footer></Footer>
+      <Footer />
     </BrowserRouter>
   );
 }

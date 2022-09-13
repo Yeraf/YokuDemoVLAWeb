@@ -1,5 +1,6 @@
 import React from "react";
 import "../CSS/Footer.css";
+import {Link} from 'react-router-dom';
 import Copa from "../img/Images/Copa Airlines.png";
 import CableOnda from "../img/Images/Cable-onda.png";
 import ROCCA from "../img/Images/Rocca.png";
@@ -17,6 +18,7 @@ import Tiktok from "../img/Icons/tik-tok.png";
 
 function Footer() {
   return (
+    <footer>
     <div className="Footer-main">
       <div className="footer-taxt">
         <h5 className="footer-h5">Contactos</h5>
@@ -58,6 +60,7 @@ function Footer() {
         </p>
       </div>
     </div>
+    </footer>
   );
 }
 

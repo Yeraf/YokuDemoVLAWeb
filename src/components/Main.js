@@ -13,6 +13,7 @@ function Main() {
     <div>
     <div className="main-main">
       <article className="article-main">
+        <div className="main1-article">
         <h1 className="h1-main-article">TU CAMINO HACIA EL ÉXITO</h1>
         <p className="p-main-article">
           Las empresas buscan personas con habilidades informáticas,
@@ -22,6 +23,7 @@ function Main() {
         </p>
         <button className="btn btn-info botones-main-article">Ver Cursos</button>
         <button className="btn btn-warning botones-main-article">Clase Gratis</button>
+        </div>
       </article>
       <div className="">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">

@@ -24,13 +24,13 @@ function Footer() {
         <h5 className="footer-h5">Contactos</h5>
         <div className="footer-contact">
           <img className="img-flag" src={CR}></img>
-          <p className="footer-p-numbers">+507 833-5602</p>
+          <p className="footer-p-numbers">+506 4102 3282</p>
           <img className="img-flag" src={Panama}></img>
           <p className="footer-p-numbers">+507 833-5602</p>
           <img className="img-flag" src={Spain}></img>
-          <p className="footer-p-numbers">+507 833-5602</p>
+          <p className="footer-p-numbers">+34 911 23 5522</p>
           <img className="img-flag" src={Usa}></img>
-          <p className="footer-p-numbers">+507 833-5602</p>
+          <p className="footer-p-numbers">+1 786-633-4717</p>
         </div>
         <h5 className="footer-h5-companias">Copañías que confían en VLA</h5>
         <div className="footer-img">
@@ -56,7 +56,7 @@ function Footer() {
           </a>
         </div>
         <p className="footer-p">
-          Developep by &copy;YokuStudios 2022 / studiosyoku@gmail.com
+          developep by &copy; YokuStudios 2022 / studiosyoku@gmail.com
         </p>
       </div>
     </div>

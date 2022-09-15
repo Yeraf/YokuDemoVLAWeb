@@ -1,0 +1,47 @@
+.Contacto-article {
+    background-color: rgb(208, 252, 252);
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.contacto-img-text {
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.contacto-div-text {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.contacto-button {
+    margin-top: 30px;
+}
+
+.contacto-div-icons {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+}
+
+.icons-contact {
+    width: 70px;
+    height: 60px;
+}
+
+.icons-contact.monitor {
+    margin-top: 100px;
+}
+
+.contac-p {
+    margin-top: 10px;
+}

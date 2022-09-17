@@ -1,0 +1,49 @@
+.article-cursos {
+    width: 90%;
+    margin: auto;
+    background-color: blueviolet;
+    background-image: url("../img/Images/cisco2.jpg");
+    color: #fff;
+    padding: 100px;
+    margin-top: 20px;
+}
+
+.article-text {
+    width: 50%;
+    align-items: center;
+    margin: 40px 0 0 48%;
+    padding-top: 30px;
+}
+
+.article-h1 {
+    margin-left: 12%;
+    color: rgb(255, 255, 255);
+}
+
+.btn-cursos {
+    margin-left: 35%;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.icon-cursos-check {
+    width: 30px;
+    
+}
+
+.article-div-av {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 30px 0 30px 0;
+    background-color: rgb(211, 255, 255);
+}
+
+.article-div-complete {
+    display: flex;
+    margin-left: 20%;
+}
+
+.div-cursos-2 {
+    padding-left: 50px;
+}

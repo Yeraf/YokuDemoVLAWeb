@@ -46,75 +46,152 @@ function Contacto() {
           </p>
         </div>
       </div>
-      <div>
-        <div>
-          <h4>Idiomas</h4>
-          <div>
-            <label>
-              <input type="radio"></input>
-              <span> Inglés Laboral</span>
-            </label>
-            <label>
-              <input type="radio"></input>
-              <span> Inglés para Niños A1 | A2</span>
-            </label>
-            <label>
-              <input type="radio"></input>
-              <span> Portugués Integral</span>
-            </label>
+
+      {/* cursos */}
+      <div className="contenedor-de-cursos">
+        <div className="contenedor-completo-text">
+          <div className="contenedor-colores">
+            <div className="contenedor-idiomas">
+              <h3>Idiomas</h3>
+              <div>
+                <input type="radio"></input>
+                <span>Inglés Laboral</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span>Inglés para Niños A1 | A2</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span>Portugués Integral</span>
+              </div>
+            </div>
+            <div className="contenedor-tecnologicos">
+              <h3>Tecnológicos</h3>
+              <div>
+                <input type="radio"></input>
+                <span>Master Front End Web Developer</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> Cisco</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span>Bootcamp Cisco CCNA</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> Linux Administrator</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> Amazon Web Services Cloud Practitioner</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> Amazon Web Services Architect</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> Microsoft SQL</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> Ciberseguridad</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> Programación Python</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> Microsoft Azure</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> Marketing Digital</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> Virtualización VMWare</span>
+              </div>
+            </div>
+            <div className="contenedor-gerenciales">
+              <h3>Gerenciales</h3>
+              <div>
+                <input type="radio"></input>
+                <span> Gerencia de Proyectos</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> Microsoft Excel Básico | Intermedio | Avanzado</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> Lean Six Sigma Yellow Belt</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> Scrum Master Professional</span>
+              </div>
+              <div>
+                <input type="radio"></input>
+                <span> ITIL v4</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div>
-          <h4>Tecnológicos</h4>
-
-          <input type="radio"></input>
-          <span> Master Front End Web Developer</span>
-
-          <input type="radio"></input>
-          <span> Cisco</span>
-
-          <input type="radio"></input>
-          <span> Bootcamp Cisco CCNA</span>
-
-          <input type="radio"></input>
-          <span> Linux Administrator</span>
-
-          <input type="radio"></input>
-          <span> Amazon Web Services Cloud Practitioner</span>
-
-          <input type="radio"></input>
-          <span> Amazon Web Services Architect</span>
-
-          <input type="radio"></input>
-          <span> Microsoft SQL</span>
-
-          <input type="radio"></input>
-          <span> Ciberseguridad</span>
-
-          <input type="radio"></input>
-          <span> Programación Python</span>
-
-          <input type="radio"></input>
-          <span> Microsoft Azure</span>
-
-          <input type="radio"></input>
-          <span> Marketing Digital</span>
-
-          <input type="radio"></input>
-          <span> Virtualización VMWare</span>
-        </div>
-        <div>
-          <h4>Gerenciales</h4>
-          <input type="radio"></input>
-          <span> Gerencia de Proyectos</span>
-          <input type="radio"></input>
-          <span> Microsoft Excel Básico | Intermedio | Avanzado</span>
-          <input type="radio"></input>
-          <span> Lean Six Sigma Yellow Belt</span>
-          <input type="radio"></input>
-          <span> Scrum Master Professional</span>
-          <input type="radio"></input>
-          <span> ITIL v4</span>
+      </div>
+      <div className="contacto-registro">
+        <div className="contacto-form-complete">
+          <form className="">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name" required>
+                </input>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Teléfono</label>
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="88888888" required>
+                </input>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com" required>
+                </input>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">País</label>
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="País">
+                </input>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Comentarios</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1" placeholder="Comentarios"
+                rows="3"
+              ></textarea>
+            </div>
+            <button className="btn btn-warning formulario-btn" type="sudmit">Quiero aprender | enviar</button>
+          </form>
         </div>
       </div>
     </div>

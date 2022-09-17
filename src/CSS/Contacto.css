@@ -1,5 +1,5 @@
 .Contacto-article {
-    background-color: rgb(208, 252, 252);
+    background-color: rgb(227, 252, 252);
     width: 90%;
     margin: auto;
     margin-top: 30px;
@@ -44,4 +44,61 @@
 
 .contac-p {
     margin-top: 10px;
+}
+
+.contenedor-de-cursos {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    background-color: rgb(227, 252, 252);
+}
+
+.contenedor-completo-text {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contenedor-colores{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+div .contenedor-idiomas {
+    width: 30%;
+   
+}
+
+div .contenedor-tecnologicos {
+    width: 50%;
+}
+
+div .contenedor-gerenciales {
+    width: 300px;
+    
+}
+
+span {
+    margin-left: 10px;
+}
+
+.contacto-registro {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.contacto-form-complete {
+    width: 30%;
+    margin: auto;
+}
+
+.formulario-btn {
+    margin-left: 35%;
 }

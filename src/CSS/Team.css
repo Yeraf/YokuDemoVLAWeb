@@ -1,7 +1,6 @@
 .principal-team-contenedor {
     width: 80%;
     margin: auto;
-    background-color: #dfe9f5;
     text-align: center;
     margin-top: 40px;
 }
@@ -16,88 +15,69 @@
     margin-top: 30px;
 }
 
-.slide-container {
-    max-width: 1120px;
+.contenedor-team-cards {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(197, 195, 195);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.img-text {
     width: 100%;
-    background-color: gray;
-    padding: 40px 0;
-}
-
-.slide-content {
-    margin: 0 40px;
-}
-
-.card {
-    width: 320px;
-    border-radius: 25px;
-    background-color: #fff;
-}
-
-.image-content,
-.card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 14px;
-}
-
-.image-content {
-    position: relative;
-    row-gap: 5px;
-    padding: 25px 0;
-}
-
-.overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #4070f4;
-    border-radius: 25px 25px 0 25px;
-    margin: 0 0 0 0.5px;  /*se agrego de momento*/
-}
-
-.overlay::before,
-.overlay::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: -40px;
-    height: 40px;
-    width: 40px;
-    background-color: #4070f4;
-}
-
-.overlay::after {
-    border-radius: 0 25px 0 0;
-    background-color: #fff;
-}
-
-.card-image {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    padding: 3px;
-}
-
-.card-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid rgb(49, 119, 218);
-}
-
-.name {
-    font-size: 18px;
-    font-weight: 500;
-    color: #333;
-}
-
-.description {
-    font-size: 14px;
-    color: #707070;
+    height: 300px;
+    display: block;
     text-align: center;
+    padding: 40% 5%;
+    background: #262626;
+    color: #fff;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.img-text h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.img-text p {
+    font-size: 14px;
+}
+
+.single-box {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.img-area {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top: 15px;
+    left: 125px;
+    border-radius: 50%;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.corousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+
+.corousel-indicators li {
+    background: #000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.corousel-indicators .active {
+    background: #fff;
 }

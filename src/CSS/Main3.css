@@ -8,6 +8,8 @@
 
 .main3-img-zoom {
     width: 600px;
+    animation: fadeInDown; 
+    animation-duration: 2s;
 }
 
 .main3-article {
@@ -24,3 +26,6 @@
     width: 90%;
     margin: auto;
 }
+
+
+

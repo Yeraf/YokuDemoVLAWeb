@@ -20,6 +20,8 @@
     height: 100px;
     border-radius: 20px;
     transition: 0.6s all ease;
+    animation: backInUp; 
+    animation-duration: 2s;
 }
 
 .Img-todos-cursos:hover {
@@ -30,6 +32,8 @@
 .a-cursos-main {
     color: rgb(0, 0, 0);
     text-decoration: none;
+    animation: backInLeft; 
+    animation-duration: 2s;
 }
 
 .main-p-cursos {

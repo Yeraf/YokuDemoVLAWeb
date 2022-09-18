@@ -3,7 +3,14 @@ import { Link } from "react-router-dom";
 import Logo from "../img/Icons/vlamerica-logo.png";
 import "../CSS/Cssnavbar.css";
 
+// window.sr = ScrollReveal();
+//     sr.reveal('.navbar.navbar-expand-lg.navbar-light', {
+//       duration: 3000
+//     });
+
+
 function Navbar() {
+
   return (
     <nav class="navbar navbar-expand-lg navbar-light">
       <Link className="navbar-brand" to="/">
@@ -55,3 +62,4 @@ function Navbar() {
 }
 
 export default Navbar;
+

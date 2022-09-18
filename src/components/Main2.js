@@ -7,6 +7,7 @@ import Imgtecnologicos from "../img/Images/cursos-tecnologicos.jpg";
 import Imgtodoscursos from "../img/Images/todos-cursos.jpg";
 
 function Main2() {
+
   return (
     <div className="main-2">
       <div className="main-cuadros-cursos">

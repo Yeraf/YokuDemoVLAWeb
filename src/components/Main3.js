@@ -8,7 +8,7 @@ function Main3() {
       <img className="main3-img-zoom" src={Zoom}></img>
       <article className="main3-article">
         <div className="main3-div-text">
-        <h5 class="animate__swing">Empieza hoy</h5>
+        <h5 class="">Empieza hoy</h5>
         <h2 className="main3-h2-article">Solicita una clase gratuita</h2>
         <p>
           <b>Toma una clase gratis y vive la experiencia VLA.</b> <br/>El 87 % de las

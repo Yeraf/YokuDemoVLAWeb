@@ -5,6 +5,7 @@ import User1 from "../img/ImagesTeam/user1.jpg";
 import User2 from "../img/ImagesTeam/user2.jpg";
 import User3 from "../img/ImagesTeam/user3.jpeg";
 import User4 from "../img/ImagesTeam/user4.jpg";
+import {Flip} from 'react-reveal';
 
 function Empleados() {
   return (
@@ -35,6 +36,7 @@ function Empleados() {
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div className="row">
+                    <Flip>
                     <div className="col-md-4">
                       <div className="single-box">
                         <div className="img-area"><img src={User1} alt=""></img></div>
@@ -44,6 +46,8 @@ function Empleados() {
                         </div>
                       </div>
                     </div>
+                    </Flip>
+                    <Flip>
                     <div className="col-md-4">
                       <div className="single-box">
                         <div className="img-area">
@@ -55,6 +59,8 @@ function Empleados() {
                         </div>
                       </div>
                     </div>
+                    </Flip>
+                    <Flip>
                     <div className="col-md-4">
                       <div className="single-box">
                         <div className="img-area">
@@ -66,6 +72,7 @@ function Empleados() {
                         </div>
                       </div>
                     </div>
+                    </Flip>
                   </div>
                 </div>
                 <div class="carousel-item">

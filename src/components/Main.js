@@ -7,6 +7,7 @@ import Cisco from '../img/Images/cisco2.jpg';
 import Conocimiento from '../img/Images/prueba-conocimientos.jpg';
 import '../CSS/Main.css';
 import Main5 from "./Main5";
+import LightSpeed from 'react-reveal/LightSpeed';
 
 function Main() {
   return (
@@ -25,7 +26,9 @@ function Main() {
         <button className="btn btn-warning botones-main-article">Clase Gratis</button>
         </div>
       </article>
+      <LightSpeed left>
       <div className="">
+        
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -84,6 +87,7 @@ function Main() {
           </button>
         </div>
       </div>
+      </LightSpeed>
     </div>
     <Main2/>
     <Main3/>

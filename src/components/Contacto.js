@@ -5,42 +5,55 @@ import Logo from "../img/Icons/vlamerica-logo.png";
 import Monitor from "../img/Icons/monitor.png";
 import User from "../img/Icons/user.png";
 import Graphic from "../img/Icons/graphic.png";
+import {Roll, Slide, Zoom, Fade}  from 'react-reveal';
+
 
 function Contacto() {
   return (
     <div className="">
       <article className="Contacto-article">
         <div className="contacto-img-text">
+          <Roll>
           <div>
             <img src={Exito} width="550px"></img>
           </div>
+          </Roll>
           <div className="contacto-div-text">
+            <Slide bottom>
             <h4>
               Te preparamos con las habilidades que necesitas para un mejor
               futuro.
             </h4>
+            </Slide>
             <button className="btn btn-success contacto-button">
               Quiero información
             </button>
             {/* <img className="contacto-img-logo" src={Logo}></img> */}
+            
           </div>
         </div>
       </article>
       <div className="contacto-div-icons">
         <div className="contacto-img-div">
+          <Zoom bottom>
           <img className="icons-contact" src={User}></img>
+          </Zoom>
           <p className="contac-p">
             <b>+1800 estudiantes activos</b>
           </p>
         </div>
         <div>
+          <Zoom bottom>
           <img className="icons-contact monitor" src={Monitor}></img>
+          </Zoom>
           <p className="contac-p">
             <b>Clases en directo online</b>
           </p>
         </div>
         <div>
+          <Zoom bottom>
           <img className="icons-contact" src={Graphic}></img>
+          </Zoom>
           <p className="contac-p">
             <b>Convenios de empleos empresariales</b>
           </p>
@@ -52,10 +65,14 @@ function Contacto() {
         <div className="contenedor-completo-text">
           <div className="contenedor-colores">
             <div className="contenedor-idiomas">
+              <Fade right>
               <h3>Idiomas</h3>
               <div>
+                
                 <input type="radio"></input>
+                
                 <span>Inglés Laboral</span>
+                
               </div>
               <div>
                 <input type="radio"></input>
@@ -65,8 +82,10 @@ function Contacto() {
                 <input type="radio"></input>
                 <span>Portugués Integral</span>
               </div>
+              </Fade>
             </div>
             <div className="contenedor-tecnologicos">
+            <Fade top>
               <h3>Tecnológicos</h3>
               <div>
                 <input type="radio"></input>
@@ -116,8 +135,10 @@ function Contacto() {
                 <input type="radio"></input>
                 <span> Virtualización VMWare</span>
               </div>
+              </Fade>
             </div>
             <div className="contenedor-gerenciales">
+              <Fade left>
               <h3>Gerenciales</h3>
               <div>
                 <input type="radio"></input>
@@ -139,6 +160,7 @@ function Contacto() {
                 <input type="radio"></input>
                 <span> ITIL v4</span>
               </div>
+              </Fade>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ function Router() {
       <Navbar />
       <Routes>
         <Route path="/" exact element={<Main />}></Route>
-        <Route path="/acerca" element={<Acerca />}></Route>
+        <Route path="/vlajobs" element={<Acerca />}></Route>
         <Route path="/contacto" element={<Contacto />}></Route>
         <Route path="/empleados" element={<Empleados />}></Route>
         <Route path="/cursos" element={<Cursos />}></Route>

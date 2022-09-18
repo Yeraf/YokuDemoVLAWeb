@@ -14,7 +14,7 @@ function Main() {
     <div className="main-main">
       <article className="article-main">
         <div className="main1-article">
-        <h1 className="h1-main-article">TU CAMINO HACIA EL ÉXITO</h1>
+        <h1 className="h1-main-article Just-add-water CSS animations">TU CAMINO HACIA EL ÉXITO</h1>
         <p className="p-main-article">
           Las empresas buscan personas con habilidades informáticas,
           gerenciales, de idiomas y mercadeo digital. Aprende con las clases

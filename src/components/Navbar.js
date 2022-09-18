@@ -39,8 +39,8 @@ function Navbar() {
             </Link>
           </li>
           <li class="nav-item active">
-            <Link className="nav-link" to="/acerca">
-              Acerca VLA
+            <Link className="nav-link" to="/vlajobs">
+              VLA Jobs
             </Link>
           </li>
           <li class="nav-item active">

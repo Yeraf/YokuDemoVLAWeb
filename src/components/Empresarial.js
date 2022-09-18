@@ -41,7 +41,7 @@ function Empresarial() {
           <img className="img-empresarial" src={cunsolting}></img>
         </div>
         <div className="empresarial-text-2">
-          <h6>PARA TU COMPANIA</h6>
+          <h6>PARA TU COMPAÑIA</h6>
           <h2>VLA Consulting</h2>
           <p>
           VLA Consulting es la forma mas fácil de desarrollar implementaciones tecnológicas, tanto nivel de cámaras de seguridad, servidores, Hardware, Redes inalámbricas y mucho más!!, esto permite que su empresa pueda dar el salto al mundo de la tecnología y llegar al próximo nivel, en donde puedes gestionar toda una red con un mismo proveedor, abarcando todas las tecnologías actuales en un solo lugar.

@@ -1,0 +1,39 @@
+.div-jobs-complete {
+    width: 90%;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(../img/ImagesJobs/jobs.jpg);
+    background-size: cover;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.acerca-text {
+    text-align: center;
+}
+
+.acerca-certificaciones {
+    margin-bottom: 40px;
+}
+
+.acerca-input {
+    padding-left: 200px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(1, 209, 140);
+}
+
+.acerca-select {
+    padding-left: 200px;
+    padding-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(1, 209, 140);
+}
+
+.btn-acerca {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: #fff;
+}

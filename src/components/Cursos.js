@@ -63,147 +63,164 @@ function Cursos() {
           </div>
         </div>
       </article>
-      <main>
-        <div class="card col-2">
-          <img src={Marketing} class="card-img-top" alt="..."></img>
-          <div class="card-body">
-            <h5 class="card-title">Cursos de Marketing Digital</h5>
-            <p class="card-text">
-              Duración: 3 Meses/nivel<br/>
-              Límite: 30 estudiantes
-            </p>
-            <a href="#" class="btn btn-primary">
-              Haz click aquí
-            </a>
+      <main className="main-cursos">
+        <div className="main-cursos-div">
+          <div className="div-cursos-4">
+            <div class="card col-2">
+              <img src={Marketing} class="card-img-top" alt="..."></img>
+              <div class="card-body">
+                <h5 class="card-title">Cursos de Marketing Digital</h5>
+                <p class="card-text">
+                  Duración: 3 Meses/nivel
+                  <br />
+                  Límite: 30 estudiantes
+                </p>
+                <a href="#" class="btn btn-primary">
+                  Haz click aquí
+                </a>
+              </div>
+            </div>
+            <div class="card col-2">
+              <img src={Ingles} class="card-img-top" alt="..."></img>
+              <div class="card-body">
+                <h5 class="card-title">Cursos de Inglés</h5>
+                <p class="card-text">
+                  Duración: 4 Meses/nivel
+                  <br />
+                  Límite: 15 estudiantes
+                </p>
+                <a href="#" class="btn btn-primary">
+                  Haz click aquí
+                </a>
+              </div>
+            </div>
+            <div class="card col-2">
+              <img src={Marketing} class="card-img-top" alt="..."></img>
+              <div class="card-body">
+                <h5 class="card-title">Técnico en Cisco CCNA</h5>
+                <p class="card-text">
+                  Duración: 6 Meses
+                  <br />
+                  Límite: 30 estudiantes
+                </p>
+                <a href="#" class="btn btn-primary">
+                  Haz click aquí
+                </a>
+              </div>
+            </div>
+            <div class="card col-2">
+              <img src={Marketing} class="card-img-top" alt="..."></img>
+              <div class="card-body">
+                <h5 class="card-title">Cursos de Web Developer</h5>
+                <p class="card-text">
+                  Duración: 7 Meses
+                  <br />
+                  Límite: 30 estudiantes
+                </p>
+                <a href="#" class="btn btn-primary">
+                  Haz click aquí
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card col-2">
-          <img src={Ingles} class="card-img-top" alt="..."></img>
-          <div class="card-body">
-            <h5 class="card-title">Cursos de Inglés</h5>
-            <p class="card-text">
-              Duración: 4 Meses/nivel<br/>
-              Límite: 15 estudiantes
-            </p>
-            <a href="#" class="btn btn-primary">
-            Haz click aquí
-            </a>
+          <div className="div-cursos-4">
+            <div class="card col-2">
+              <img src={Marketing} class="card-img-top" alt="..."></img>
+              <div class="card-body">
+                <h5 class="card-title">Bootcamp examen CCNA</h5>
+                <p class="card-text">
+                  Duración: 3 Meses
+                  <br />
+                  Límite: 30 estudiantes
+                </p>
+                <a href="#" class="btn btn-primary">
+                  Haz click aquí
+                </a>
+              </div>
+            </div>
+            <div></div>
+            <div class="card col-2">
+              <img src={Marketing} class="card-img-top" alt="..."></img>
+              <div class="card-body">
+                <h5 class="card-title">Cursos de Linux</h5>
+                <p class="card-text">
+                  Duración: 3 Meses
+                  <br />
+                  Límite: 30 estudiantes
+                </p>
+                <a href="#" class="btn btn-primary">
+                  Haz click aquí
+                </a>
+              </div>
+            </div>
+            <div class="card col-2">
+              <img src={Marketing} class="card-img-top" alt="..."></img>
+              <div class="card-body">
+                <h5 class="card-title">Cursos de AWS</h5>
+                <p class="card-text">
+                  Duración: 2 Meses
+                  <br />
+                  Límite: 30 estudiantes
+                </p>
+                <a href="#" class="btn btn-primary">
+                  Haz click aquí
+                </a>
+              </div>
+            </div>
+            <div class="card col-2">
+              <img src={Marketing} class="card-img-top" alt="..."></img>
+              <div class="card-body">
+                <h5 class="card-title">Cursos de Python</h5>
+                <p class="card-text">
+                  Duración: 3 Meses
+                  <br />
+                  Límite: 30 estudiantes
+                </p>
+                <a href="#" class="btn btn-primary">
+                  Haz click aquí
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card col-2">
-          <img src={Marketing} class="card-img-top" alt="..."></img>
-          <div class="card-body">
-            <h5 class="card-title">Técnico en Cisco CCNA</h5>
-            <p class="card-text">
-              Duración: 6 Meses<br/>
-              Límite: 30 estudiantes
-            </p>
-            <a href="#" class="btn btn-primary">
-            Haz click aquí
-            </a>
-          </div>
-        </div>
-        <div class="card col-2">
-          <img src={Marketing} class="card-img-top" alt="..."></img>
-          <div class="card-body">
-            <h5 class="card-title">Cursos de Web Developer</h5>
-            <p class="card-text">
-              Duración: 7 Meses<br/>
-              Límite: 30 estudiantes
-            </p>
-            <a href="#" class="btn btn-primary">
-            Haz click aquí
-            </a>
-          </div>
-        </div>
-        <div class="card col-2">
-          <img src={Marketing} class="card-img-top" alt="..."></img>
-          <div class="card-body">
-            <h5 class="card-title">Bootcamp examen CCNA</h5>
-            <p class="card-text">
-              Duración: 3 Meses<br/>
-              Límite: 30 estudiantes
-            </p>
-            <a href="#" class="btn btn-primary">
-            Haz click aquí
-            </a>
-          </div>
-        </div>
-        <div class="card col-2">
-          <img src={Marketing} class="card-img-top" alt="..."></img>
-          <div class="card-body">
-            <h5 class="card-title">Cursos de Linux</h5>
-            <p class="card-text">
-              Duración: 3 Meses<br/>
-              Límite: 30 estudiantes
-            </p>
-            <a href="#" class="btn btn-primary">
-            Haz click aquí
-            </a>
-          </div>
-        </div>
-        <div class="card col-2">
-          <img src={Marketing} class="card-img-top" alt="..."></img>
-          <div class="card-body">
-            <h5 class="card-title">Cursos de AWS</h5>
-            <p class="card-text">
-              Duración: 2 Meses<br/>
-              Límite: 30 estudiantes
-            </p>
-            <a href="#" class="btn btn-primary">
-            Haz click aquí
-            </a>
-          </div>
-        </div>
-        <div class="card col-2">
-          <img src={Marketing} class="card-img-top" alt="..."></img>
-          <div class="card-body">
-            <h5 class="card-title">Cursos de Python</h5>
-            <p class="card-text">
-              Duración: 3 Meses<br/>
-              Límite: 30 estudiantes
-            </p>
-            <a href="#" class="btn btn-primary">
-            Haz click aquí
-            </a>
-          </div>
-        </div>
-        <div class="card col-2">
-          <img src={Marketing} class="card-img-top" alt="..."></img>
-          <div class="card-body">
-            <h5 class="card-title">Cursos de Portugués</h5>
-            <p class="card-text">
-              Duración: 8 Meses<br/>
-              Límite: 15 estudiantes
-            </p>
-            <a href="#" class="btn btn-primary">
-            Haz click aquí
-            </a>
-          </div>
-        </div>
-        <div class="card col-2">
-          <img src={Marketing} class="card-img-top" alt="..."></img>
-          <div class="card-body">
-            <h5 class="card-title">Cursos de Español</h5>
-            <p class="card-text">
-              Próximamente
-            </p>
-            <a href="#" class="btn btn-primary">
-            Haz click aquí
-            </a>
-          </div>
-        </div>
-        <div class="card col-2">
-          <img src={Marketing} class="card-img-top" alt="..."></img>
-          <div class="card-body">
-            <h5 class="card-title">Cursos de Excel</h5>
-            <p class="card-text">
-              Duración: 2 Meses/nivel<br/>
-              Límite: 30 estudiantes
-            </p>
-            <a href="#" class="btn btn-primary">
-            Haz click aquí
-            </a>
+          <div className="div-cursos-4">
+            <div class="card col-2">
+              <img src={Marketing} class="card-img-top" alt="..."></img>
+              <div class="card-body">
+                <h5 class="card-title">Cursos de Portugués</h5>
+                <p class="card-text">
+                  Duración: 8 Meses
+                  <br />
+                  Límite: 15 estudiantes
+                </p>
+                <a href="#" class="btn btn-primary">
+                  Haz click aquí
+                </a>
+              </div>
+            </div>
+            <div class="card col-2">
+              <img src={Marketing} class="card-img-top" alt="..."></img>
+              <div class="card-body">
+                <h5 class="card-title">Cursos de Español</h5>
+                <p class="card-text">Próximamente</p>
+                <a href="#" class="btn btn-primary">
+                  Haz click aquí
+                </a>
+              </div>
+            </div>
+            <div class="card col-2">
+              <img src={Marketing} class="card-img-top" alt="..."></img>
+              <div class="card-body">
+                <h5 class="card-title">Cursos de Excel</h5>
+                <p class="card-text">
+                  Duración: 2 Meses/nivel
+                  <br />
+                  Límite: 30 estudiantes
+                </p>
+                <a href="#" class="btn btn-primary">
+                  Haz click aquí
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </main>

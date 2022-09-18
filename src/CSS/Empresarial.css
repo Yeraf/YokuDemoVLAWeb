@@ -1,0 +1,44 @@
+.article-empresarial {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 100px 0px 100px 0px;
+    background-image: url('../img/ImagesEmpresarial/empresarial.jpg');
+    background-size: cover;
+}
+
+.empresarial-text {
+    text-align: center;
+    color: #000;
+}
+
+.empresarial-btn {
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.div-empresarial-h1 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.empresarial-elearning {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 90px;
+    background-color: rgb(221, 255, 244);
+}
+
+.empresarial-text-2 {
+    width: 30%;
+    margin: auto;
+    text-align: justify;
+}
+
+.img-empresarial {
+    width: 700px;
+}

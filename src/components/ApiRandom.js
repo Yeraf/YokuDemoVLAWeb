@@ -72,7 +72,7 @@ const RandomUser = () => {
                         <div className="col-md-4">
                           <div className="single-box">
                             <div className="img-area">
-                              <img src={User1} alt=""></img>
+                              <img src={User2} alt=""></img>
                             </div>
                             <div className="img-text">
                               <h2>{user.title}</h2>
@@ -85,7 +85,7 @@ const RandomUser = () => {
                         <div className="col-md-4">
                           <div className="single-box">
                             <div className="img-area">
-                              <img src={User2} alt=""></img>
+                              <img src={user.picture} alt=""></img>
                             </div>
                             <div className="img-text">
                               <h2>Person Three</h2>

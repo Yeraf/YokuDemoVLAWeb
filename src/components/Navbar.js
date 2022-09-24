@@ -3,15 +3,10 @@ import { Link } from "react-router-dom";
 import Logo from "../img/Icons/vlamerica-logo.png";
 import "../CSS/Cssnavbar.css";
 
-// window.sr = ScrollReveal();
-//     sr.reveal('.navbar.navbar-expand-lg.navbar-light', {
-//       duration: 3000
-//     });
-
-
 function Navbar() {
 
   return (
+    <div>
     <nav class="navbar navbar-expand-lg navbar-light">
       <Link className="navbar-brand" to="/">
         <img className="navbar-logo-VLA" src={Logo}></img>
@@ -30,6 +25,11 @@ function Navbar() {
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+            <Link className="nav-link" to="/">
+              Home
+            </Link>
+          </li>
           <li class="nav-item active">
             <Link className="nav-link" to="/contacto">
               Contacto VLA
@@ -58,6 +58,7 @@ function Navbar() {
         </ul>
       </div>
     </nav>
+    </div>
   );
 }
 

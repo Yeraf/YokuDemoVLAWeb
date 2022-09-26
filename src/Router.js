@@ -15,12 +15,12 @@ function Router() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" exact element={<Main />}></Route>
-        <Route path="/vlajobs" element={<Acerca />}></Route>
-        <Route path="/contacto" element={<Contacto />}></Route>
-        <Route path="/empleados" element={<Empleados />}></Route>
-        <Route path="/cursos" element={<Cursos />}></Route>
-        <Route path="/empresarial" element={<Empresarial />}></Route>
+        <Route exact path='/' element={<Main />}></Route>
+        <Route path='/vlajobs' element={<Acerca />}></Route>
+        <Route path='/contacto' element={<Contacto />}></Route>
+        <Route path='/empleados' element={<Empleados />}></Route>
+        <Route path='/cursos' element={<Cursos />}></Route>
+        <Route path='/empresarial' element={<Empresarial />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/YokuDemoVLAWeb/static/css/main.4f7f1c08.css",
-    "main.js": "/YokuDemoVLAWeb/static/js/main.528bc125.js",
+    "main.js": "/YokuDemoVLAWeb/static/js/main.21ab6a34.js",
     "static/js/787.6d0b1cfc.chunk.js": "/YokuDemoVLAWeb/static/js/787.6d0b1cfc.chunk.js",
     "static/media/landing-copia-100.jpg": "/YokuDemoVLAWeb/static/media/landing-copia-100.7936462f6b52a9b68add.jpg",
     "static/media/user4.jpg": "/YokuDemoVLAWeb/static/media/user4.fc8d2b8a1ca75b60c737.jpg",
@@ -38,11 +38,11 @@
     "static/media/linkedin.png": "/YokuDemoVLAWeb/static/media/linkedin.6892b3ae328c7a1e055f.png",
     "index.html": "/YokuDemoVLAWeb/index.html",
     "main.4f7f1c08.css.map": "/YokuDemoVLAWeb/static/css/main.4f7f1c08.css.map",
-    "main.528bc125.js.map": "/YokuDemoVLAWeb/static/js/main.528bc125.js.map",
+    "main.21ab6a34.js.map": "/YokuDemoVLAWeb/static/js/main.21ab6a34.js.map",
     "787.6d0b1cfc.chunk.js.map": "/YokuDemoVLAWeb/static/js/787.6d0b1cfc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f7f1c08.css",
-    "static/js/main.528bc125.js"
+    "static/js/main.21ab6a34.js"
   ]
 }

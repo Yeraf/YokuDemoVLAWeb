@@ -15,7 +15,8 @@ function Router() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route exact path='/' element={<Main />}></Route>
+        <Route exact index path='/' element={<Main />}></Route>
+        <Route exact index path='/YokuDemoVLAWeb/' element={<Main />}></Route>
         <Route path='/vlajobs' element={<Acerca />}></Route>
         <Route path='/contacto' element={<Contacto />}></Route>
         <Route path='/empleados' element={<Empleados />}></Route>
